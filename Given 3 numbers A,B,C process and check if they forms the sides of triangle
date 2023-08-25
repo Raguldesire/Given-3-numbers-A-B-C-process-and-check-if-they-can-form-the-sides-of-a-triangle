@@ -1,0 +1,5 @@
+a,b,c=list(map(int,(input().split())))          #Getting multiple inputs a,b,c
+if (a*a)+(b*b)==(c*c):                          #sides of triangle a*a + b*b = c*c
+  print("yes")
+else:
+  print("no")
